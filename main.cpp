@@ -26,8 +26,9 @@ int main()
           if (firstInitial == vowels.at(i))
           {
                   cout << "you are destined to be famous!" << endl;
+                  break;
           }
-          else if (i == vowels.length() - 1)
+          else if (i == vowels.length() - 1 && firstInitial != vowels.at(i))
           {
                   cout << "you should keep a low profile." << endl;
           }
